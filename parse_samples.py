@@ -1,3 +1,11 @@
+#################################################################
+## Author: Patrick Seminatore
+## Created Date: 6/24/20
+## Description: Utility functions for parsing NSYNTH dataset
+##              from single .tar.gz file into organized folders 
+##              by pitch
+#################################################################
+
 import tarfile
 import json
 import os
