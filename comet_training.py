@@ -1,3 +1,13 @@
+#################################################################
+## Author: Patrick Seminatore
+## Created Date: 6/24/20
+## Description: Builds, trains, evaluates, and logs feed-forward
+##              neural network for identifying musical notes.
+##              Logs to: https://www.comet.ml/pseminatore/dss/
+## Acknowledgements: Based on https://towardsdatascience.com/how-to-apply-machine-learning-and-deep-learning-methods-to-audio-analysis-615e286fcbbc
+##                   Original Author: Niko Laskaris, Customer Facing Data Scientist, Comet.ml
+#################################################################
+
 from comet_ml import Experiment
 import numpy as np
 import pandas as pd
